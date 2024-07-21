@@ -26,4 +26,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: fteiji/AppDevOps:latest, fteiji/AppDevOps:${{ v1 }}
+          tags: fteiji/AppDevOps:v1, fteiji/AppDevOps:${{ github.run_number }}
